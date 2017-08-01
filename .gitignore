@@ -1,0 +1,3 @@
+*.pyc
+virtenv/
+thd/
