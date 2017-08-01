@@ -258,8 +258,8 @@ if __name__ == '__main__':
 
 	parser = ArgumentParser(description='LDAP Weak Password Scanner, created by iomarmochtar@gmail.com')
 
-	parser.add_argument('-p', '--password-list',
-		help='List of password file', type=lambda x: isFileExist(parser, x),
+	parser.add_argument('-p', '--password-file',
+		help='Password file', type=lambda x: isFileExist(parser, x),
 		action='store', required=True)
 
 	parser.add_argument('-r', '--result-file',
