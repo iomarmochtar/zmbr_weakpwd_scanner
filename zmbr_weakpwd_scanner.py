@@ -288,7 +288,7 @@ if __name__ == '__main__':
 	bf = Scanner(
 		bind_dn=args.ldap_bind,
 		result_file=args.result_file,
-		passwdlst=args.password_list,
+		passwdlst=args.password_file,
 		ldap_filter=args.ldap_filter,
 		base_dn=args.ldap_basedn,
 		show_passwd=args.show_password
